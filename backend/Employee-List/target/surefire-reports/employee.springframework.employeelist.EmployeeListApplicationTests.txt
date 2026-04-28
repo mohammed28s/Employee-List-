@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: employee.springframework.employeelist.EmployeeListApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.152 s -- in employee.springframework.employeelist.EmployeeListApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.877 s -- in employee.springframework.employeelist.EmployeeListApplicationTests
