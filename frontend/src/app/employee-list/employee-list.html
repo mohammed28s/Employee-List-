@@ -2,6 +2,10 @@
   <h2> Employee List</h2>
 </div>
 
+<div *ngIf="errorMessage" class="alert alert-warning" role="alert">
+  {{ errorMessage }}
+</div>
+
 <table class = "table table-striped table-bordered">
   <thead>
   <tr>

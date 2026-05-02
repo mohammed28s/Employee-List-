@@ -1,17 +1,29 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { of } from 'rxjs';
+import { provideRouter } from '@angular/router';
 
-import { CreateEmployee } from './create-employee';
+import { CreateEmployeeComponent } from './create-employee';
+import { EmployeeService } from '../employee.service';
 
-describe('CreateEmployee', () => {
-  let component: CreateEmployee;
-  let fixture: ComponentFixture<CreateEmployee>;
+describe('CreateEmployeeComponent', () => {
+  let component: CreateEmployeeComponent;
+  let fixture: ComponentFixture<CreateEmployeeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CreateEmployee],
+      imports: [CreateEmployeeComponent],
+      providers: [
+        provideRouter([]),
+        {
+          provide: EmployeeService,
+          useValue: {
+            createEmployee: () => of({}),
+          },
+        },
+      ],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(CreateEmployee);
+    fixture = TestBed.createComponent(CreateEmployeeComponent);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
