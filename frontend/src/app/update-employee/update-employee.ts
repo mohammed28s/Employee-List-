@@ -32,5 +32,5 @@ export class UpdateEmployeeComponent implements OnInit{
     goToEmployeeList(){
     this.router.navigate(['/employees']);
     }
-  
+
 }
