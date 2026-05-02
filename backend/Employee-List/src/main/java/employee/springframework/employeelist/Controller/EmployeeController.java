@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 @CrossOrigin(origins = "http://localhost:4200")  // Angular
 @Controller
 @RestController
-@RequestMapping("/api/v1/") // This is main path
+@RequestMapping("/api/v1/employees") // This is main path
 public class EmployeeController {
 
 
