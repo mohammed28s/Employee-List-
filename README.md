@@ -1,14 +1,21 @@
-# Employee List
+# Employee List 👨‍💼📋
+
+![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Angular](https://img.shields.io/badge/Frontend-Angular-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/UI-Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![H2](https://img.shields.io/badge/Database-H2-0F4C81)
+![License](https://img.shields.io/badge/Status-Student%20Project-1F6FEB)
 
 Employee List is a full-stack CRUD application for managing employees with a Spring Boot backend and an Angular frontend.
 
-## Stack
+## 🧰 Stack
 
 - Backend: Spring Boot 4, Spring Web MVC, Spring Data JPA, H2
 - Frontend: Angular 21, TypeScript, Bootstrap
 - API docs: Springdoc OpenAPI / Swagger UI
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Employee-List-/
@@ -16,7 +23,7 @@ Employee-List-/
 └── frontend
 ```
 
-## Features
+## ✨ Features
 
 - View all employees
 - Create a new employee
@@ -25,14 +32,14 @@ Employee-List-/
 - View employee details
 - Swagger UI for backend API inspection
 
-## Prerequisites
+## ✅ Prerequisites
 
 - Java 26
 - Node.js 22.x or 24.x LTS
 - npm
 - Maven Wrapper (`./mvnw`) is included
 
-## Run The Project
+## 🚀 Run The Project
 
 ### 1. Start the backend
 
@@ -60,13 +67,13 @@ Frontend default URL:
 
 - `http://localhost:4200`
 
-## Development Notes
+## 🛠️ Development Notes
 
 - The frontend is configured to call the backend on `http://localhost:8080`
 - The backend currently uses H2 in-memory storage for local development
 - Restarting the backend resets the in-memory data
 
-## Available Scripts
+## 📜 Available Scripts
 
 Inside `frontend`:
 
@@ -83,7 +90,7 @@ Inside `backend/Employee-List`:
 ./mvnw test
 ```
 
-## API Overview
+## 🔗 API Overview
 
 Base path:
 
@@ -99,7 +106,7 @@ Endpoints:
 - `PUT /api/v1/employees/{id}`
 - `DELETE /api/v1/employees/{id}`
 
-## Notes For Production
+## 🌐 Notes For Production
 
 - Replace the H2 configuration with a persistent database such as MySQL or PostgreSQL
 - Use a supported LTS Node.js version for Angular development and builds
